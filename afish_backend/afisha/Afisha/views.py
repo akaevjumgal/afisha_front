@@ -1,0 +1,1 @@
+from Afisha import views

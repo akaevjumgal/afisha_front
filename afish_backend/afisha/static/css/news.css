@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu:300');
+
+body{
+
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 8px auto;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/*Header*/
+#head_container{
+    width: 100%;
+    background-color: #ce2125;
+}
+#foot{
+    width: 100%;
+    background-color: #3a3a3a;
+    padding: 20px;
+}
+
+header{
+    padding-top: 5px;
+    height: 60px;
+    line-height: 55px;
+    vertical-align: middle;
+}
+.brand{
+    font-size: 20px;
+    color: #fff;
+    vertical-align: middle;
+}
+.search_block{
+    max-width: 400px;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #7e7e7e;;
+    -webkit-border: 2px solid #7e7e7e;;
+    -moz-border: 2px solid #7e7e7e;;
+    -o-border: 2px solid #7e7e7e;;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.search_field{
+    width: 345px;
+    height: 37px;
+    padding: 0 8px;
+    border: none;
+
+}
+.search_btn{
+    color: #777;
+    width: 70px;
+    height: 37px;
+    background-color: #eaeaea;
+    border: none;
+    line-height: 37px;
+    border-left: 1px solid #7e7e7e;
+    -webkit-border-left: 1px solid #7e7e7e;
+    -moz-border-left: 1px solid #7e7e7e;
+    -o-border-left: 1px solid #7e7e7e;
+    vertical-align: middle;
+}
+.search_btn:hover {
+    font-weight: bold;
+    color: #fff;
+    background-color: #7e7e7e;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.search_btn:active {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    vertical-align: middle;
+}
+nav a:hover{
+    color: #fff;
+}
+/*End Header*/
+/*Content*/
+.left-side{
+    float: left;
+}
+
+.content{
+    margin: 50px 0;
+
+}
+.item-news{
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    -o-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+
+.text-news{
+    padding: 5px 10px;
+}
+.item-down{
+    padding: 0 10px;
+    margin-top: 20px;
+    height: 35px;
+    clear: both;
+}
+.pubdate{
+    float: left;
+    line-height: 35px;
+    vertical-align: middle;
+}
+time{
+    color: #7e7e7e;
+}
+.fa-calendar{
+    color: #7e7e7e;
+}
+
+.btn_view{
+    float: right;
+    vertical-align: middle;
+}
+.btn_view a{
+    vertical-align: middle;
+    line-height: 35px;
+}
+.soc-icons{
+    display: inline-block;
+    word-spacing: 10px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+/*Calendar*/
+#calendar{
+    width: 300px;
+}
+.eventCalendar{
+    text-align: center;
+}
+/*Block Last News*/
+.last-news{
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    margin-bottom: 30px;
+}
+.nearest-session{
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+.cont-desc{
+    background-color: #f1f1f1;
+    padding: 5px;
+
+}
+.title{
+    -webkit-border-top: 3px solid #ce2125;
+    -moz-border-top: 3px solid #ce2125;
+    -o-border-top: 3px solid #ce2125;
+    border-top: 3px solid #ce2125;
+    -webkit-border-bottom: 3px solid #ce2125;
+    -moz-border-bottom: 3px solid #ce2125;
+    -o-border-bottom: 3px solid #ce2125;
+    border-bottom: 3px solid #ce2125;
+    margin: 0;
+    padding: 5px 0;
+}
+
+hr{
+    background-color: #ce2125;
+    height: 2px;
+    margin: 5px 0;
+}
+/* End Block Last News*/
+/*End Content*/
+/*Footer*/
+footer{
+
+}
+footer h4{
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #777;
+}
+.social-links ul li{
+    font-size: 25px;
+    padding: 5px 8px;
+}
+#dw-panel{
+    width: 100%;
+    background-color: #666;
+}
+.tartar{
+    background-color: #666;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+}.tartar p{
+    font-size: 12px;
+}
+/*End Footer*/
